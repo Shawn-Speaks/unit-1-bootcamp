@@ -8,7 +8,10 @@ public class Cat {
   private int age;
   private Person owner;
 
-  public Cat() {
+
+  public Cat(String name, int age) {
+    this.name = name;
+    this.age = age;
   }
 
   public Cat(String name) {
